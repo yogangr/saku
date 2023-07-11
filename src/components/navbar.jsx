@@ -19,7 +19,7 @@ function NavbarComponent() {
             />
           </Navbar.Brand>{" "}
           <div className="vertical-hr"></div>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav text-white" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto mx-3">
               <Nav.Link href="#home" className="mx-2">

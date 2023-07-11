@@ -2,13 +2,18 @@
 import React from "react";
 import NavbarComponent from "../components/navbar";
 import HeroComponent from "../components/HeroComponent";
+import FinanceComponent from "../components/FinanceComponent";
+import { Container } from "react-bootstrap";
+import FiturComponent from "../components/FiturComponent";
 
 function Home() {
   return (
-    <div>
+    <Container className="home">
       <NavbarComponent />
       <HeroComponent />
-    </div>
+      <FinanceComponent />
+      <FiturComponent />
+    </Container>
   );
 }
 
